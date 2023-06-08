@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.homepage         = "https://github.com/IosBlessed/NetworkAPI"
   s.license          = 'MIT'
   s.author           = 'IosBlessed'
-  s.source           = { :git => "https://github.com/IosBlessed/NetworkAPI.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/IosBlessed/NetworkAPI.git", :branch => "master", :tag => s.version.to_s }
 
   s.swift_version    = '5.0'
   s.source_files     = 'Sources/*.{swift,h}'
