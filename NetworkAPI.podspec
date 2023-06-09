@@ -6,7 +6,7 @@ Pod::Spec.new do |spec|
   spec.description  = "I have no idea what should I write her -_-"
 
   spec.homepage     = "https://github.com/IosBlessed/NetworkAPI"
-  spec.license      = "MIT"
+  spec.license      = { :type => 'MIT', :file => 'LICENSE' }
   spec.author             = { "iosBlessed" => "kolobanov.nikita.99@gmail.com" }
   spec.platform     = :ios, "13.0"
   spec.source       = { :git => "https://github.com/IosBlessed/NetworkAPI.git", :tag => spec.version.to_s }
