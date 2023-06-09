@@ -1,16 +1,18 @@
-Pod::Spec.new do |s|
-  s.name             = "NetworkAPI"
-  s.version          = "1.0.0"
-  s.summary          = "Based NetworkAPI"
-  s.description      = "Test pod which was developed by me for integration for the one of the projects inside the Endava."
+Pod::Spec.new do |spec|
 
-  s.homepage         = "https://github.com/IosBlessed/NetworkAPI"
-  s.license          = 'MIT'
-  s.author           = 'IosBlessed'
-  s.source           = { :git => "https://github.com/IosBlessed/NetworkAPI.git", :branch => "master", :tag => s.version.to_s }
+  spec.name         = "NetworkAPI"
+  spec.version      = "1.0.0"
+  spec.summary      = "Test Network Framework."
+  spec.description  = "I have no idea what should I write her -_-"
 
-  s.swift_version    = '5.0'
-  s.source_files     = 'Sources/NetworkAPI/*.swift'
+  spec.homepage     = "https://github.com/IosBlessed/NetworkAPI"
+  spec.license      = "MIT"
+  spec.author             = { "iosBlessed" => "kolobanov.nikita.99@gmail.com" }
+  spec.platform     = :ios, "13.4"
+  spec.source       = { :git => "https://github.com/IosBlessed/NetworkAPI.git", :tag => spec.version.to_s }
   
-  s.ios.deployment_target     = '9.0'
+  spec.source_files  = "Sources/NetworkAPI/*.{swift}"
+
+  spec.frameworks = "UIKit", "Foundation"
+  spec.swift_versions = "5.0"
 end
